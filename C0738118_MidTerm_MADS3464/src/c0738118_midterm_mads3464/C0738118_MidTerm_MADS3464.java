@@ -19,10 +19,15 @@ public class C0738118_MidTerm_MADS3464 {
         LambtonStringTools lst = new LambtonStringTools();
         lst.reverse("lambton");*/
     
-		BinaryToDecimal obj = new BinaryToDecimal();
+		/*BinaryToDecimal obj = new BinaryToDecimal();
 		
 		System.out.println("Decimal of 1101 : "+obj.binaryToDecimal(1101));
 		System.out.println("Decimal of 111101 : "+obj.binaryToDecimal(111101));
 	}
-	
-}
+	*/
+                
+    Initials i = new Initials();
+        String name = "james triburk kirk";
+        i.printInitials(name);
+    }
+    }
